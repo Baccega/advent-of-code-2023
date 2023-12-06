@@ -1,15 +1,10 @@
-import { calculateTrebuchetCalibration, processDocumentRow } from ".";
+import { calculateTrebuchetCalibration, processDocumentRow } from "./1";
 import {
   calculateTrebuchetCalibration as calculateTrebuchetCalibration2,
   processDocumentRow as processDocumentRow2,
 } from "./bruteForce";
 
-const exampleInput = [
-  "1abc2",
-  "pqr3stu8vwx",
-  "a1b2c3d4e5f",
-  "treb7uchet",
-];
+const exampleInput = ["1abc2", "pqr3stu8vwx", "a1b2c3d4e5f", "treb7uchet"];
 const exampleInput2 = [
   "two1nine",
   "eightwothree",
@@ -23,7 +18,6 @@ const exampleInput2 = [
   "fives2dznl",
   "wefwtwowjiefooneight",
 ];
-
 
 describe("#1 - First part", () => {
   test("1", () => {
